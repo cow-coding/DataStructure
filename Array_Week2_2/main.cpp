@@ -28,19 +28,19 @@ int main() {
         for (int j = 0; j < N ; j++) {
 
             if (j % 3 == 0) {
-                if (bank[j] != 0){
-                    ksum += bank[j];
+                if (bank.at(j) != 0){
+                    ksum += bank.at(j);
                     k++;
                 }
             }
             else if (j % 3 == 1) {
-                if (bank[j] != 0) {
+                if (bank.at(j) != 0) {
                     jsum += bank[j];
                     jap++;
                 }
             }
             else if (j % 3 == 2) {
-                if (bank[j] != 0) {
+                if (bank.at(j) != 0) {
                     csum += bank[j];
                     c++;
                 }
