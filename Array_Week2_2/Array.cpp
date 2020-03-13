@@ -32,11 +32,11 @@ public:
         return false;
     }
     
-    void at(int idx) {
-        if (arr[idx] == 0)
-            cout << 0 << "\n";
+    int at(int i) {
+        if(arr[i] == 0)
+            return 0;
         else
-            cout << arr[idx] << "\n";
+            return arr[i];
     }
     
     void set(int idx, int X) {
