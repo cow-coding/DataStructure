@@ -64,6 +64,6 @@ int main() {
         
         
         cout << ksum << " " << jsum << " " << csum << "\n";
-        cout << static_cast<int>(kavg) << " " << static_cast<int>(javg) << " " << static_cast<int>(cavg) << "\n";
+        cout << kavg << " " << javg << " " << cavg << "\n";
     }
 }
