@@ -47,40 +47,21 @@ int main() {
             }
         }
         
-        if (k == 0) {
+        if (k == 0)
             kavg = 0;
-            if (jap == 0) {
-                javg = 0;
-                if (c == 0) {
-                    cavg = kavg;
-                } else {
-                    cavg = floor(csum / c);
-                }
-            } else {
-                javg = floor(jsum / jap);
-                if (c == 0)
-                    cavg = 0;
-                else
-                    cavg = floor(csum/ c);
-            }
-        } else {
+        else
             kavg = floor(ksum / k);
-            if (jap == 0) {
-                javg = 0;
-                if (c == 0) {
-                    cavg = javg;
-                } else {
-                    cavg = floor(csum / c);
-                }
-            } else {
-                javg = floor(jsum / jap);
-                
-                if (c == 0)
-                    cavg = 0;
-                else
-                    cavg = floor(csum / c);
-            }
-        }
+        
+        if (jap == 0)
+            javg = 0;
+        else
+            javg = floor(jsum / jap);
+        
+        if (c == 0)
+            cavg = 0;
+        else
+            cavg = floor(csum / c);
+        
         
         cout << ksum << " " << jsum << " " << csum << "\n";
         cout << static_cast<int>(kavg) << " " << static_cast<int>(javg) << " " << static_cast<int>(cavg) << "\n";
