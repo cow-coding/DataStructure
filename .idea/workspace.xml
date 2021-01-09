@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765c16b6-821d-4933-8282-3f871703ab0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Go/Array/Array.go" afterDir="false" />
+    <list default="true" id="765c16b6-821d-4933-8282-3f871703ab0e" name="Default Changelist" comment="go array code 1">
+      <change afterPath="$PROJECT_DIR$/Go/LinkedList/SinglyLinkedList.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,21 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
+  <component name="RunManager">
+    <configuration name="go build SinglyLinkedList.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go/LinkedList/SinglyLinkedList.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build SinglyLinkedList.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -65,5 +81,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="go array code 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="go array code 1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1610202864492">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state x="653" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1680.956@0.25.1680.956" timestamp="1610202864492" />
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1610204672517">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.25.1680.956@0.25.1680.956" timestamp="1610204672517" />
+    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1610204672517">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state width="1638" height="255" key="GridCell.Tab.0.center/0.25.1680.956@0.25.1680.956" timestamp="1610204672517" />
+    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1610204672516">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state width="1638" height="255" key="GridCell.Tab.0.left/0.25.1680.956@0.25.1680.956" timestamp="1610204672516" />
+    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1610204672517">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state width="1638" height="255" key="GridCell.Tab.0.right/0.25.1680.956@0.25.1680.956" timestamp="1610204672517" />
+    <state x="560" y="1300" key="Vcs.Push.Dialog.v2" timestamp="1609863657639">
+      <screen x="0" y="25" width="3840" height="2051" />
+    </state>
+    <state x="560" y="1300" key="Vcs.Push.Dialog.v2/0.25.3840.2051@0.25.3840.2051" timestamp="1609863657639" />
   </component>
 </project>
