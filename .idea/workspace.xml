@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765c16b6-821d-4933-8282-3f871703ab0e" name="Default Changelist" comment="go array code 1">
-      <change afterPath="$PROJECT_DIR$/Go/LinkedList/SinglyLinkedList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/Day1/quiz1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/Day1/quiz2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/Day2/LinkedList/CircularLinkedList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/Day2/LinkedList/SinglyLinkedList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/Day2/quiz1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/Day2/quiz2.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go/Array/Array.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Day1/Array/Array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go/LinkedList/SinglyLinkedList.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1meolwuyH1E542O0UrOYipc9mCG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,18 +62,65 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager">
-    <configuration name="go build SinglyLinkedList.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Go/Day1/Array" />
+      <recent name="$PROJECT_DIR$/Go/LinkedList/SLL" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build quiz2.go (1)">
+    <configuration name="go build DataStructure/Go/Day1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/Go/Day1/quiz1.go" />
+      <package value="DataStructure/Go/Day1" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build quiz1.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DataStructure" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go/LinkedList/SinglyLinkedList.go" />
+      <filePath value="$PROJECT_DIR$/Go/Day2/quiz1.go" />
+      <package value="DataStructure" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build quiz1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go/Day1/quiz1.go" />
+      <package value="DataStructure" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build quiz2.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go/Day2/quiz2.go" />
+      <package value="DataStructure" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build quiz2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go/Day1/quiz2.go" />
+      <package value="DataStructure" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build SinglyLinkedList.go" />
+        <item itemvalue="Go Build.go build quiz2.go (1)" />
+        <item itemvalue="Go Build.go build quiz1.go (1)" />
+        <item itemvalue="Go Build.go build quiz2.go" />
+        <item itemvalue="Go Build.go build quiz1.go" />
+        <item itemvalue="Go Build.go build DataStructure/Go/Day1" />
       </list>
     </recent_temporary>
   </component>
@@ -92,22 +149,42 @@
       <screen x="0" y="25" width="1680" height="956" />
     </state>
     <state x="653" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1680.956@0.25.1680.956" timestamp="1610202864492" />
-    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1610204672517">
-      <screen x="0" y="25" width="1680" height="956" />
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1611849737831">
+      <screen x="0" y="25" width="1680" height="960" />
     </state>
     <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.25.1680.956@0.25.1680.956" timestamp="1610204672517" />
-    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1610204672517">
-      <screen x="0" y="25" width="1680" height="956" />
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.25.1680.960@0.25.1680.960" timestamp="1611849737831" />
+    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1611849737830">
+      <screen x="0" y="25" width="1680" height="960" />
     </state>
     <state width="1638" height="255" key="GridCell.Tab.0.center/0.25.1680.956@0.25.1680.956" timestamp="1610204672517" />
-    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1610204672516">
-      <screen x="0" y="25" width="1680" height="956" />
+    <state width="1638" height="255" key="GridCell.Tab.0.center/0.25.1680.960@0.25.1680.960" timestamp="1611849737830" />
+    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1611849737830">
+      <screen x="0" y="25" width="1680" height="960" />
     </state>
     <state width="1638" height="255" key="GridCell.Tab.0.left/0.25.1680.956@0.25.1680.956" timestamp="1610204672516" />
-    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1610204672517">
-      <screen x="0" y="25" width="1680" height="956" />
+    <state width="1638" height="255" key="GridCell.Tab.0.left/0.25.1680.960@0.25.1680.960" timestamp="1611849737830" />
+    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1611849737830">
+      <screen x="0" y="25" width="1680" height="960" />
     </state>
     <state width="1638" height="255" key="GridCell.Tab.0.right/0.25.1680.956@0.25.1680.956" timestamp="1610204672517" />
+    <state width="1638" height="255" key="GridCell.Tab.0.right/0.25.1680.960@0.25.1680.960" timestamp="1611849737830" />
+    <state width="1638" height="316" key="GridCell.Tab.1.bottom" timestamp="1611849177604">
+      <screen x="0" y="25" width="1680" height="960" />
+    </state>
+    <state width="1638" height="316" key="GridCell.Tab.1.bottom/0.25.1680.960@0.25.1680.960" timestamp="1611849177604" />
+    <state width="1638" height="316" key="GridCell.Tab.1.center" timestamp="1611849177604">
+      <screen x="0" y="25" width="1680" height="960" />
+    </state>
+    <state width="1638" height="316" key="GridCell.Tab.1.center/0.25.1680.960@0.25.1680.960" timestamp="1611849177604" />
+    <state width="1638" height="316" key="GridCell.Tab.1.left" timestamp="1611849177603">
+      <screen x="0" y="25" width="1680" height="960" />
+    </state>
+    <state width="1638" height="316" key="GridCell.Tab.1.left/0.25.1680.960@0.25.1680.960" timestamp="1611849177603" />
+    <state width="1638" height="316" key="GridCell.Tab.1.right" timestamp="1611849177604">
+      <screen x="0" y="25" width="1680" height="960" />
+    </state>
+    <state width="1638" height="316" key="GridCell.Tab.1.right/0.25.1680.960@0.25.1680.960" timestamp="1611849177604" />
     <state x="560" y="1300" key="Vcs.Push.Dialog.v2" timestamp="1609863657639">
       <screen x="0" y="25" width="3840" height="2051" />
     </state>

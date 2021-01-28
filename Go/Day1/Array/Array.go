@@ -1,4 +1,4 @@
-package main
+package Array
 
 import "fmt"
 
@@ -9,7 +9,7 @@ type Array struct {
 }
 
 // constructor
-func NewArray(arraySize int) *Array {
+func NewArr(arraySize int) *Array {
 	a := Array{}
 	a.n = 0
 	a.arraySize = arraySize
@@ -23,12 +23,12 @@ func NewArray(arraySize int) *Array {
 }
 
 // return data
-func (a *Array) at(index int) int {
+func (a *Array) At(index int) int {
 	return a.arr[index]
 }
 
 // data change function
-func (a *Array) set(index int, data int) {
+func (a *Array) Set(index int, data int) {
 	if a.arr[index] != 0 {
 		a.arr[index] = data
 	} else {
@@ -37,7 +37,7 @@ func (a *Array) set(index int, data int) {
 }
 
 // add data function
-func (a *Array) add(index int, data int) {
+func (a *Array) Add(index int, data int) {
 	if a.arr[index] == 0 {
 		a.arr[index] = data
 		a.n++
@@ -51,7 +51,7 @@ func (a *Array) add(index int, data int) {
 }
 
 // remove data function
-func (a *Array) remove(index int) {
+func (a *Array) Remove(index int) {
 	if a.arr[index] == 0 {
 		fmt.Println(0)
 	} else {
@@ -68,7 +68,7 @@ func (a *Array) remove(index int) {
 	}
 }
 
-func (a *Array) printArray() {
+func (a *Array) PrintArray() {
 	if a.n == 0 {
 		fmt.Println(0)
 	} else {
@@ -76,38 +76,5 @@ func (a *Array) printArray() {
 			fmt.Print(a.arr[i], " ")
 		}
 		fmt.Println("")
-	}
-}
-
-func main() {
-	var M int
-	var command string
-	arr := NewArray(10000)
-	fmt.Scanf("%d", &M)
-
-	for i := 0; i < M; i++ {
-		fmt.Scanf("%s", &command)
-		var num int
-		var idx int
-
-		if command == "set" {
-			fmt.Scanf("%d %d", &idx, &num)
-
-			arr.set(idx, num)
-		} else if command == "at" {
-			fmt.Scanf("%d", &idx)
-
-			fmt.Println(arr.at(idx))
-		} else if command == "add" {
-			fmt.Scanf("%d %d", &idx, &num)
-
-			arr.add(idx, num)
-		} else if command == "printArray" {
-			arr.printArray()
-		} else if command == "remove" {
-			fmt.Scanf("%d", &idx)
-
-			arr.remove(idx)
-		}
 	}
 }
