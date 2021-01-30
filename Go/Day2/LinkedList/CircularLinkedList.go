@@ -3,7 +3,6 @@ package LinkedList
 import "fmt"
 
 type CircularLinkedList struct {
-	LinkedList
 	head *Node
 	n    int
 	tail *Node
