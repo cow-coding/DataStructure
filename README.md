@@ -2,6 +2,8 @@
 
 ## Data Structure Link : C++
 
+![C++](https://img.shields.io/badge/Code-C++-00897B?style=plastic&logo=c%2B%2B&logoColor=white)  
+
 - [Day 01 : Getting Started(Hello World!)](https://github.com/cow-coding/DataStructure/tree/master/C%2B%2B/Day%2001)
 - [Day 02 : Array](https://github.com/cow-coding/DataStructure/tree/master/C%2B%2B/Day%2002)
 - [Day 03 : Linked List](https://github.com/cow-coding/DataStructure/tree/master/C%2B%2B/Day%2003)
@@ -13,7 +15,9 @@
 - [Day 12 : Hash Table](https://github.com/cow-coding/DataStructure/tree/master/C%2B%2B/Day%2012)
 - [Day 13 : DFS & BFS](https://github.com/cow-coding/DataStructure/tree/master/C%2B%2B/Day%2013)
 
-## Data Structure Link : C++
+## Data Structure Link : Go
+
+![Go](https://img.shields.io/badge/Code-Go-00ADD8?style=plastic&logo=Go&logoColor=white)  
 
 - [Day 01 : Array](https://github.com/cow-coding/DataStructure/tree/master/Go/Day1)
 - [Day 02 : Linked List](https://github.com/cow-coding/DataStructure/tree/master/Go/Day2)
