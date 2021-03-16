@@ -20,6 +20,7 @@
 
 - [Singular Linked List](https://github.com/cow-coding/DataStructure/blob/master/C%2B%2B/2021/1.SingularLinkedList/SLL.cpp)
 - [Doubly Linked List](https://github.com/cow-coding/DataStructure/blob/master/C%2B%2B/2021/2.DoublyLinkedList/DLL.cpp)
+- [Stack](https://github.com/cow-coding/DataStructure/tree/master/C%2B%2B/2021/3.Stack)
 
 ## Data Structure Link : Go
 
