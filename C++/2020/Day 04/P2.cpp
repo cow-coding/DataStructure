@@ -62,7 +62,7 @@ public:
         return n;
     }
 
-    bool emppry() {
+    bool empty() {
         return n == 0;
     }
 
