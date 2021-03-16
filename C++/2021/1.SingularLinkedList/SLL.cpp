@@ -87,6 +87,8 @@ public:
                 curr = curr->next;
             }
             
+            size--;
+            
             int ret = curr->data;
             
             prev->next = curr->next;
